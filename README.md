@@ -20,24 +20,27 @@
 To do: `npm run tsc` that (at least on Mac) I had to add the path for the actual compiler within the package, like this
 
 
->{
-> "name": "foo"
-> "scripts": {
-> "tsc": "./node_modules/typescript/bin/tsc"
-> },
->  "dependencies": {
->    "typescript": "^2.3.3",
->    "typings": "^2.1.1"
->  }
->}
+```js
+{
+"name": "foo"
+ "scripts": {
+ "tsc": "./node_modules/typescript/bin/tsc"
+ },
+  "dependencies": {
+    "typescript": "^2.3.3",
+    "typings": "^2.1.1"
+  }
+}```
 
 
 ### routes
-``app.use('/todos', todoRoutes);``
-``router.post('/', createTodo);``
-``router.get('/', getTodos);``
-``router.patch('/:id', updateTodo);``
-``router.delete('/:id', deleteTodo);`` 
+```javascript
+app.use('/todos', todoRoutes);
+router.post('/', createTodo);
+router.get('/', getTodos);
+router.patch('/:id', updateTodo);
+router.delete('/:id', deleteTodo); 
+```
 
 ### demo capture
 
