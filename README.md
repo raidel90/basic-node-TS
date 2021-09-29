@@ -30,10 +30,12 @@ To do: `npm run tsc` that (at least on Mac) I had to add the path for the actual
     "typescript": "^2.3.3",
     "typings": "^2.1.1"
   }
-}```
+}
+```
 
 
 ### routes
+
 ```javascript
 app.use('/todos', todoRoutes);
 router.post('/', createTodo);
